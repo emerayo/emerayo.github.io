@@ -7,7 +7,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #69779b;
-  color: #69779b;
+  color: #e8e6e3;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -20,58 +20,6 @@ body {
   /*padding: 0 0 60px;*/
 }
 
-/* Navbar
--------------------------------------------------- */
-
-.navbar-static-top {
-  margin-bottom: 10px;
-}
-.navbar-default {
-  background-color: #ffffff;
-  border-color: #ffffff;
-}
-.navbar-default .navbar-brand {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #69779b;
-}
-.navbar-default .navbar-text {
-  color: #69779b;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #69779b;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #69779b;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #69779b;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #69779b;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #69779b;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #69779b;
-}
-.navbar-default .navbar-link {
-  color: #69779b;
-}
-.navbar-default .navbar-link:hover {
-  color: #69779b;
-}
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #69779b;
@@ -97,10 +45,10 @@ body {
   margin: 20px 0;
 }
 .container a {
-  color: #acdbdf;
+  color: #69779b;
 }
 .container a:hover {
-  color: #267723;
+  color: #f0ece2;
 }
 .img-responsive {
  display: block;
@@ -143,43 +91,18 @@ body {
 .avatar {
   padding-top: 5%;
 }
-.blog-post{
-  padding-top: 15px;
-}
-.blog-title{
-  padding-top: 2px;
-}
-.related-posts h4 {
-  text-align: center;
-}
 .page-not-found {
   padding-top: 20%;
-}
-.disqus {
-  padding-bottom: 15px;
-}
-
-.blogpost{
-  text-align: left;
-  line-height: 30px;
-  font-size: 18px;
 }
 
 /* Footer 
 -------------------------------------------------- */
 
-.footer {
-  text-decoration: none !important;
-}
-.text-muted {
-	color: #69779b;
-}
-div.footer{
+div.footer_border{
   border-bottom: 5px solid #69779b;;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
   height: 50px;
   padding-bottom: 15px;
-  
 }*/
